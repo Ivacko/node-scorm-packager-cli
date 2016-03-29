@@ -1,0 +1,16 @@
+{
+  "name": "node-scorm-packager-cli",
+  "version": "0.0.1",
+  "description": "CLI for scorm packager",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "scorm",
+    "lms",
+    "imsmanifest"
+  ],
+  "author": "Ivan Kucerak",
+  "license": "MIT"
+}
