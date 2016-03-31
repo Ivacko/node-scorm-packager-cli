@@ -3,14 +3,27 @@
   "version": "0.0.1",
   "description": "CLI for scorm packager",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ivacko/node-scorm-packager-cli.git"
   },
   "keywords": [
+    "cli",
     "scorm",
     "lms",
     "imsmanifest"
   ],
-  "author": "Ivan Kucerak",
-  "license": "MIT"
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "scorm": "lib/index.js"
+  },
+  "author": "Ivan Kucerak <dev@ivacko.eu>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "node-scorm-packager": "^0.0.9",
+    "prompt": "^1.0.0"
+  }
 }
